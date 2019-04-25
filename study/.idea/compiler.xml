@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="study" />
+        <module name="study-consumer-movie" />
+        <module name="study-consumer-movie-feigh" />
+        <module name="study-consumer-ribbon" />
+        <module name="study-discovery-eureka" />
+        <module name="study-discovery-eureka-colony" />
+        <module name="study-discovery-eureka-colony1" />
+        <module name="study-geteway-zuul" />
+        <module name="study-provider-user" />
+        <module name="study-simple-consumer-movie" />
+        <module name="study-simple-provider-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="study" target="1.5" />
+      <module name="study-consumer-movie" target="1.8" />
+      <module name="study-consumer-movie-feigh" target="1.8" />
+      <module name="study-consumer-ribbon" target="1.8" />
+      <module name="study-discovery-eureka" target="1.8" />
+      <module name="study-discovery-eureka-colony" target="1.8" />
+      <module name="study-discovery-eureka-colony1" target="1.8" />
+      <module name="study-geteway-zuul" target="1.8" />
+      <module name="study-provider-user" target="1.8" />
+      <module name="study-simple-consumer-movie" target="1.8" />
+      <module name="study-simple-provider-user" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

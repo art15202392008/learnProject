@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/study.iml" filepath="$PROJECT_DIR$/study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-consumer-movie/study-consumer-movie.iml" filepath="$PROJECT_DIR$/study-consumer-movie/study-consumer-movie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-consumer-movie-feigh/study-consumer-movie-feigh.iml" filepath="$PROJECT_DIR$/study-consumer-movie-feigh/study-consumer-movie-feigh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-consumer-ribbon/study-consumer-ribbon.iml" filepath="$PROJECT_DIR$/study-consumer-ribbon/study-consumer-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-discovery-eureka/study-discovery-eureka.iml" filepath="$PROJECT_DIR$/study-discovery-eureka/study-discovery-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-discovery-eureka-colony/study-discovery-eureka-colony.iml" filepath="$PROJECT_DIR$/study-discovery-eureka-colony/study-discovery-eureka-colony.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-discovery-eureka-colony1/study-discovery-eureka-colony1.iml" filepath="$PROJECT_DIR$/study-discovery-eureka-colony1/study-discovery-eureka-colony1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-geteway-zuul/study-geteway-zuul.iml" filepath="$PROJECT_DIR$/study-geteway-zuul/study-geteway-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-provider-user/study-provider-user.iml" filepath="$PROJECT_DIR$/study-provider-user/study-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-simple-consumer-movie/study-simple-consumer-movie.iml" filepath="$PROJECT_DIR$/study-simple-consumer-movie/study-simple-consumer-movie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-simple-provider-user/study-simple-provider-user.iml" filepath="$PROJECT_DIR$/study-simple-provider-user/study-simple-provider-user.iml" />
+    </modules>
+  </component>
+</project>

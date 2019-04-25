@@ -1,0 +1,73 @@
+# Tomcat
+server:
+  port: 8081
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 1000
+    min-spare-threads: 30
+  connection-timeout: 5000ms
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+spring:
+    datasource:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driverClassName: com.mysql.jdbc.Driver
+        druid:
+            first:
+                url: jdbc:mysql://114.116.10.188:3306/studycloud?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+                username: root
+                password: Ckg48@ssd@2018
+            second:
+                url: jdbc:mysql://114.116.10.188:3306/studycloud?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+                username: ssd_cqna
+                password: cqNAgrc_cjns#17
+                initial-size: 10
+            max-active: 100
+            min-idle: 10
+            max-wait: 60000
+            pool-prepared-statements: true
+            max-pool-prepared-statement-per-connection-size: 20
+            time-between-eviction-runs-millis: 60000
+            min-evictable-idle-time-millis: 300000
+            validation-query: SELECT 1 FROM DUAL
+            test-while-idle: true
+            test-on-borrow: false
+            test-on-return: false
+            stat-view-servlet:
+                enabled: true
+                url-pattern: /druid/*
+                #login-username: admin
+                                                      #login-password: admin
+            filter:
+                stat:
+                    log-slow-sql: true
+                    slow-sql-millis: 1000
+                    merge-sql: true
+                wall:
+                    config:
+                        multi-statement-allow: true
+
+#mybatis
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  typeAliasesPackage: provider_user.modules
+  global-config:
+    id-type: 0
+    field-strategy: 2
+    db-column-underline: true
+    refresh-mapper: true
+    #capital-mode: true
+    #key-generator: com.baomidou.springboot.xxx
+    logic-delete-value: -1
+    logic-not-delete-value: 0
+    #meta-object-handler: com.baomidou.springboot.xxx
+    sql-injector: com.baomidou.mybatisplus.mapper.LogicSqlInjector
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+    call-setters-on-nulls: true

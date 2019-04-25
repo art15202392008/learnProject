@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/study-simple-provider-user/pom.xml" />
+        <option value="$PROJECT_DIR$/study-simple-consumer-movie/pom.xml" />
+        <option value="$PROJECT_DIR$/study-discovery-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/study-provider-user/pom.xml" />
+        <option value="$PROJECT_DIR$/study-consumer-movie/pom.xml" />
+        <option value="$PROJECT_DIR$/study-discovery-eureka-colony/pom.xml" />
+        <option value="$PROJECT_DIR$/study-discovery-eureka-colony1/pom.xml" />
+        <option value="$PROJECT_DIR$/study-consumer-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/study-consumer-movie-feigh/pom.xml" />
+        <option value="$PROJECT_DIR$/study-geteway-zuul/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+</project>
